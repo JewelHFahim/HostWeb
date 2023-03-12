@@ -3,8 +3,8 @@ import "./NavLogo.css";
 
 const NavLogo = () => {
   return (
-    <div className="h-[119px] text-white grid  w-full content-center justify-center">
-      <div className="flex justify-between px-[50px] w-screen border border-white text-[20px] font-[500] font-[inter]">
+    <div className=" bg-[#1053FF] h-[119px] text-white grid  w-full content-center justify-center">
+      <div className="flex justify-between px-[100px] w-screen border border-white text-[20px] font-[500] font-[inter]">
         <div className="flex justify-center justify-items-center border border-red-600">
           <p className="text-2xl font-bold">Logo</p>
         </div>

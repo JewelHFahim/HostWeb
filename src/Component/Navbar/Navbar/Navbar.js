@@ -10,7 +10,7 @@ const Navbar = () => {
       <NavLogo />
 
       <div className="h-[90px] bg-[#1B84FF] text-white grid  content-center justify-center w-full">
-        <div className="flex justify-between px-[50px] w-screen border border-white  font-[inter]">
+        <div className="flex justify-between px-[100px] w-screen border border-white  font-[inter]">
           <div className="flex justify-center justify-items-center text-[20px] font-[400] border border-red-600">
             <ul className="flex">
               <li>Home</li>
