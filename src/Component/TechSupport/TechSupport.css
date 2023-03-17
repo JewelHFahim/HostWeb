@@ -1,0 +1,30 @@
+.tech-supp-container {
+    height: 598px;
+    display: flex;
+    padding: 0 94px;
+    background-color: #1053FF;
+    margin-top: 90px;
+    font-family: 'inter';
+}
+
+.tech-supp-btn {
+    width: 154px;
+    height: 41px;
+    margin-top: 49px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background-color: #FF9649;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tech-spp-img {
+    width: 35%;
+    height: 750px;
+    font-size: 40px;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

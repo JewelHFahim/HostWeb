@@ -1,0 +1,75 @@
+.slick-slide {
+    margin: 0 40px 0 0px;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-track {
+    overflow-y: hidden;
+    height: 750px;
+}
+
+.sliderImg img {
+    transition: transform 0.25s;
+}
+
+.sliderImg img:hover {
+    transform: scale(1.1);
+}
+
+.slider-box {
+    width: 505px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-box-img {
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-box-img img {
+    height: 352px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title-btn {
+    width: 88px;
+    height: 36px;
+    border-radius: 50px;
+    display: grid;
+    align-items: center;
+    position: absolute;
+    top: -50px;
+}
+
+.title-btn button {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.slider-box h1 {
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+    margin-top: 30px;
+}
+
+.slider-author-img {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}

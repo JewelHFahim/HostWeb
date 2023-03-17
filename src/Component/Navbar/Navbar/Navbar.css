@@ -1,3 +1,130 @@
-ul li{
-    margin-right: 60px;
+.nav-container{
+  width: 100%;
+  height: 90px;
+  background-color: #1B84FF;
+  color: white;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'inter';
+}
+
+.nav-sub-container{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  
+}
+
+.nav-main{
+  display: flex;
+  font-size: 20px;
+  margin-left: -8px;
+}
+
+ul li {
+    margin-right: 70px;
+}
+
+
+/* Hover Animation */
+.animone {
+    font-family: 'inter';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  .animone * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+  }
+  .animone li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+  .animone a {
+    padding: 0.5em 0.8em;
+    margin: 0.2em 0;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-decoration: none;
+  }
+  .animone a:before,
+  .animone a:after {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+  }
+  .animone a:before {
+    left: 0;
+    top: 0;
+    border-left: 3px solid #FF9649;
+    border-top: 3px solid #FF9649;
+    -webkit-transform: translate(100%, 50%);
+    transform: translate(100%, 50%);
+  }
+  .animone a:after {
+    right: 0;
+    bottom: 0;
+    border-right: 3px solid #FF9649;
+    border-bottom: 3px solid #FF9649;
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+  }
+  .animone a:hover,
+  .snip1189 .current a {
+    color: #ffffff;
+  }
+  .animone a:hover:before,
+  .animone .current a:before,
+  .animone a:hover:after,
+  .animone .current a:after {
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+
+
+/* Reg and Login Btn */
+
+.reg-btn-container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.reg-btn{
+  width: 82px;
+  height: 38px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF9649;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.login-btn{
+  width: 82px;
+  height: 38px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
 }

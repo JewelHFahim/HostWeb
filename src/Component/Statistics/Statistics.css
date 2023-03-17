@@ -1,0 +1,19 @@
+.statistics-container {
+    width: 406px;
+    height: 265px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.statistics-container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}

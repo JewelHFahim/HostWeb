@@ -1,0 +1,26 @@
+.review-circle {
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(217, 217, 217, 0) 87.14%);
+}
+
+.review-slide-dot {
+    width: 5px;
+    height: 5px;
+    color: #8F8F8F;
+    margin-right: 5px;
+}
+
+.about-slider-cont {
+    width: 584px;
+    height: 229px;
+    background-color: #1B84FF;
+    border-radius: 10px;
+    padding: 35px 26px;
+    margin-right: 20px;
+}
+
+.about-slider-cont p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: 12px;
+}

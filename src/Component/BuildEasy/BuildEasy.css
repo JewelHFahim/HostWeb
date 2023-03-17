@@ -1,0 +1,74 @@
+.buildeasy-conatiner {
+  height: 598px;
+  display: flex;
+  padding: 0 94px;
+  background-color: #1053ff;
+  margin-top: 90px;
+  font-family: "inter";
+}
+
+.buildeasy-sub-cont {
+  width: 65%;
+}
+
+.buildeasy-sub-cont h1 {
+  font-size: 54px;
+  color: white;
+  margin-top: 99px;
+  font-weight: 700;
+}
+
+.get-started-btn {
+  width: 154px;
+  height: 41px;
+  margin-top: 97px;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  background-color: #ff9649;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.buildeasy-img {
+  width: 35%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+#zio {
+  -webkit-animation: bounce 3s infinite ease-in-out;
+  -o-animation: bounce 3s infinite ease-in-out;
+  -ms-animation: bounce 3s infinite ease-in-out;
+  -moz-animation: bounce 3s infinite ease-in-out;
+  animation: bounce 3s infinite ease-in-out;
+}

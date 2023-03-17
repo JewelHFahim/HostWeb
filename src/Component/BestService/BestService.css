@@ -1,0 +1,31 @@
+.best-service-box {
+  width: 412px;
+  height: 382px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.best-service-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-service-box h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.best-service-box p {
+  color: #8f8f8f;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 55px;
+  padding: 0 63px;
+}
